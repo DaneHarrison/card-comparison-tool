@@ -1,0 +1,40 @@
+.tooltip-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .tooltip-text {
+    visibility: visible;
+    width: 155px;
+    background-color: #333;
+    color: #fff;
+    text-align: left;
+    font-size: medium;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    top: 125%;
+    left: 0%;
+    margin-left: -60px;
+    opacity: 1;
+    transition: opacity 0.3s;
+  }
+  
+  .tooltip-trigger {
+    cursor: pointer;
+  }
+  
+  .tooltip-trigger:hover + .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .underline {
+    text-decoration-line: underline;
+    text-decoration-style: dashed;
+    text-decoration-thickness: 3px;
+    text-decoration-color: #0075be;
+    color: #0075be;
+    font-weight: 650;
+}

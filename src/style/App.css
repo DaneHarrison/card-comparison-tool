@@ -1,0 +1,134 @@
+.app {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.toggle-button {
+  padding: 10px;
+  background: #0075be;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.sidebar.open {
+  width: 250px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 10px;
+  color: white;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+}
+
+.app.sidebar-open {
+  display: block;
+  width: 250px;
+}
+
+.menu-toggle {
+  cursor: pointer;
+  padding: 10px;
+  top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 2px 0;
+  transition: 0.4s;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 10px;
+  color: white;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+}
+
+.sidebar-open {
+  width: 240px;
+  min-width: 240px;
+}
+
+.sidebar-closed {
+  width: 48px;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  height: 100vh;
+  background-color: #02588d;
+  transition: 0.3s;
+  margin-right: 10px;
+  box-shadow: 8px 0 10px rgba(0, 0, 0, 0.2);
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.container {
+  position: relative;
+}
+
+.hideText {
+  visibility: hidden;
+  transition: opacity 10s;
+}
+
+.whiteTxt {
+  color: white;
+}
+
+.bankHeader {
+  margin-left: 10%;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.sidebarContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+}
+
+.loadBtn {
+  padding: 10px;
+}
+
+.cardContainer {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  overflow-y: auto;
+}

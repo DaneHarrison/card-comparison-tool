@@ -1,0 +1,121 @@
+[
+    {
+        "bank": "bank1",
+        "cardName": "Bank 1 Card 1",
+        "color": "#FF5733",
+        "tags": [
+            "lifestyle", "rewards"
+        ],
+        "savings": {
+            "food": 0.02,
+            "travel": 0.03,
+            "recreation": 0.04
+        },
+        "annualFee": "$500",
+        "purchaseInterest": "20%",
+        "advanceInterest": "20%",
+        "welcomeOffer": "50$ off your first purchase"
+    },
+    {
+        "bank": "bank2",
+        "cardName": "Bank 2 Card 1",
+        "color": "#4A90E2",
+        "tags": [
+            "lifestyle", "rewards"
+        ],
+        "savings": {
+            "food": 0.01,
+            "travel": 0.01,
+            "recreation": 0.02
+        },
+        "annualFee": "$500",
+        "purchaseInterest": "20%",
+        "advanceInterest": "20%",
+        "welcomeOffer": "50$ off your first purchase"
+    },
+    {
+        "bank": "bank3",
+        "cardName": "Bank 3 Card 1",
+        "color": "#9C36B5",
+        "tags": [
+            "lifestyle", "rewards"
+        ],
+        "savings": {
+            "food": 0.1,
+            "travel": 0.09,
+            "recreation": 0.001
+        },
+        "annualFee": "$500",
+        "purchaseInterest": "20%",
+        "advanceInterest": "20%",
+        "welcomeOffer": "50$ off your first purchase"
+    },
+    {
+        "bank": "bank1",
+        "cardName": "Bank 1 Card 2",
+        "color": "#7EC84B",
+        "tags": [
+            "lifestyle", "rewards"
+        ],
+        "savings": {
+            "food": 0.04,
+            "travel": 0.04,
+            "recreation": 0.04
+        },
+        "annualFee": "$500",
+        "purchaseInterest": "20%",
+        "advanceInterest": "20%",
+        "welcomeOffer": "50$ off your first purchase"
+    },
+    {
+        "bank": "bank2",
+        "cardName": "Bank 2 Card 2",
+        "color": "#E54D88",
+        "tags": [
+            "lifestyle", "rewards"
+        ],
+        "savings": {
+            "food": 0.02,
+            "travel": 0.03,
+            "recreation": 0.02
+        },
+        "annualFee": "$500",
+        "purchaseInterest": "20%",
+        "advanceInterest": "20%",
+        "welcomeOffer": "50$ off your first purchase"
+    },
+    {
+        "bank": "bank3",
+        "cardName": "Bank 3 Card 2",
+        "color": "#3E8D96",
+        "tags": [
+            "rewards"
+        ],
+        "savings": {
+            "food": 0.05,
+            "travel": 0.06,
+            "recreation": 0
+        },
+        "annualFee": "$500",
+        "purchaseInterest": "20%",
+        "advanceInterest": "20%",
+        "welcomeOffer": "50$ off your first purchase"
+    },
+    {
+        "bank": "bank1",
+        "cardName": "Bank 1 Card 3",
+        "color": "#B55123",
+        "tags": [
+            "lifestyle", "less fees"
+        ],
+        "savings": {
+            "food": 0,
+            "travel": 0.01,
+            "recreation": 0.2
+        },
+        "annualFee": "$0",
+        "purchaseInterest": "5%",
+        "advanceInterest": "5%",
+        "welcomeOffer": ""
+    }
+]
